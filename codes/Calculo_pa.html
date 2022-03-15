@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <button onclick="calcAn()">Cálculo do An</button><br>
+   <button onclick="calcA1()">Cálculo do A1</button><br>
+   <button onclick="calcR()">Cálculo do R</button><br>
+   <button onclick="calcN()">Cálculo do N</button><br><br>
+   <input type="date">
+   <a href="">Clique aqui amigo =) </a>
+</body>
+</html>
+<script>
+    function calcAn(){
+        var a1 = Number(prompt("Digite o valor de 1"));
+        var n = Number(prompt("Digite o valor de n"));
+        var r = Number(prompt("Digite o valor de r"));
+        var an = a1 + (n-1) * r;
+        alert(an);
+}
+function CalcA1(){
+        var a1 = Number(prompt("Digite o valor de 1"));
+        var n = Number(prompt("Digite o valor de n"));
+        var r = Number(prompt("Digite o valor de r"));
+        var an = a1 + (n-1) * r;
+        alert(an);
+}
+function CalcR(){
+        var a1 = Number(prompt("Digite o valor de 1"));
+        var n = Number(prompt("Digite o valor de n"));
+        var r = Number(prompt("Digite o valor de r"));
+        var an = an - (n-1) * r;
+        alert(an);
+}
+function CalcN(){
+        var a1 = Number(prompt("Digite o valor de 1"));
+        var n = Number(prompt("Digite o valor de n"));
+        var r = Number(prompt("Digite o valor de r"));
+        var an = a1 + ((an-a1)) / r;
+        alert(an)  
+
+
+}
+
+
+</script>
